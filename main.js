@@ -17,6 +17,8 @@ app.on('ready', function() {
         height: 600,
         'auto-hide-menu-bar': true,
         'use-content-size': true,
+        frame: false
+        //transparent: true
     });
 
     mainWindow.loadUrl('file://' + __dirname + '/index.html');
